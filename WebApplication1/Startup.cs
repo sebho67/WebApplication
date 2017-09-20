@@ -68,10 +68,6 @@ namespace WebApplication1
             {
                 route.MapRoute("default", "{controller=home}/{action=index}/{id?}");
             });
-
-
-
-
         }
     }
 }

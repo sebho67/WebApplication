@@ -1,8 +1,9 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
 
 namespace GdsSample.Dal
 {
-    public class MyContext : Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityDbContext
+    public class MyContext : IdentityDbContext
     {
         public DbSet<Blog> Blogs { get; set; }
         public DbSet<Post> Posts { get; set; }
