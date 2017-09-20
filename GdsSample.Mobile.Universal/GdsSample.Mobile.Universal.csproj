@@ -134,6 +134,16 @@
       <Version>5.0.0</Version>
     </PackageReference>
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\GdsSample.Dal\GdsSample.Dal.csproj">
+      <Project>{777263ca-0714-4991-8885-9249f9f48510}</Project>
+      <Name>GdsSample.Dal</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GdsSample.Mobile.Core\GdsSample.Mobile.Core.csproj">
+      <Project>{675bca8a-9683-4961-8a54-5ace053dc42a}</Project>
+      <Name>GdsSample.Mobile.Core</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>
   </PropertyGroup>

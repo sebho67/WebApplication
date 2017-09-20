@@ -55,5 +55,11 @@
   <ItemGroup>
     <Folder Include="ViewModels\" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\GdsSample.Dal\GdsSample.Dal.csproj">
+      <Project>{777263ca-0714-4991-8885-9249f9f48510}</Project>
+      <Name>GdsSample.Dal</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
 </Project>
