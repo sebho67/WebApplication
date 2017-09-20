@@ -19,8 +19,4 @@
     <PackageReference Include="Swashbuckle.AspNetCore.SwaggerUi" Version="1.0.0" />
   </ItemGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\GdsSample.Dal\GdsSample.Dal.csproj" />
-  </ItemGroup>
-
 </Project>
